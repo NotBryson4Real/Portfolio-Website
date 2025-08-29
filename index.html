@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="./imgs/favicon.png">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo">BF</div>
+			<div class="logo-text">Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="mailto:brysonfossati@gmail.com" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Bryson Fossati
+					</h1>
+					<p>
+						A Computer Engineer who is passionate about embedded systems and using technology to make the world a better place <span>I'm interested in anything hardware or software related and have experience with many different technologies.</span>
+					</p>
+					<div class="call-to-action">
+						<a href="./Bryson Resume.pdf" class="button black">
+							View Resume
+						</a>
+						<a href="mailto:brysonfossati@gmail.com" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/NotBryson4Real">
+							<img src="./imgs/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/bryson-fossati-4a7123380">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./imgs/head-shot.png" alt="Bryson Fossati" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/c++.png" alt="c++" width="128" />
+					<img src="./imgs/C.png" alt="C" width="128" />
+					<img src="./imgs/Matlab.png" alt="Matlab" width="128" />
+					<img src="./imgs/RISC-V-logo.png" width="128" alt="RISC-V" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/verilog.png" width="128" alt="Verilog" />
+					<img src="./imgs/ltspice.png" width="128" alt="LT-Spice" />
+					<img src="./imgs/c++.png" alt="c++" width="128" />
+					<img src="./imgs/C.png" alt="C" width="128" />
+					<img src="./imgs/Matlab.png" alt="Matlab" width="128" />
+					<img src="./imgs/RISC-V-logo.png" width="128" alt="RISC-V" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/verilog.png" width="128" alt="Verilog" />
+					<img src="./imgs/ltspice.png" width="128" alt="LT-Spice" />
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Software</h3>
+					<ul>
+						<li>Python</li>
+						<li>Matlab</li>
+						<li>C++</li>
+						<li>C</li>
+						<li>LT Spice</li>
+						<li>Verilog</li>
+					</ul>
+					<h3>Hardware</h3>
+					<ul>
+						<li>Soldering</li>
+						<li>Oscilliscopes</li>
+						<li>Experience using DMMs</li>
+						<li>PCB Design</li>
+						<li>IOT Experience</li>
+						<li>Low Voltage Experience</li>
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						Hi I'm Bryson Fossati, a Computer Engineer who is passionate about embedded systems and using technology to make the world a better place. I'm interested in anything hardware or software related and have experience with many different technologies.
+					<p>
+						I'm currently working on a project that will end up sending a cube satellite into space. In the past I've done a project involving the controls for a full sized boat and development of a carnival game from scratch that used a variety of sensors and acctuators.
+			</div>
+		</section>
+		<section id="projects" class="work-experience container">
+			<h2>
+				<!-- <small>Recent</small> -->
+				Projects
+				<small>Click on some of the pictures to watch a video!</small>
+			</h2>
+			<div class="jobs">
+				<article>
+				    <figure class="video-trigger" data-video-src="https://www.youtube.com/embed/NsIm4cPuvxY?si=Cfolm1-mg1Jv5FAg">
+				        <div>
+				            <img src="./imgs/Carnival Game3.JPEG" alt="Carnival Game" width="100%" />
+				            <figcaption>Carnival Game</figcaption>
+				        </div>
+				    </figure>
+				    <h3>Carnival Game</h3>
+				    <div>2024</div>
+				    <p>Worked with an inter-disciplinary team of engineering students to develop the hardware and software for a fully functional carnival game from the ground up.</p>
+				</article>
+				<article>
+				    <figure class="video-trigger" data-video-src="https://www.youtube.com/embed/cMAAWYdMJJU?si=5AhMI6SH6eafJM0U">
+				        <div>
+				            <img src="./imgs/Motorized Boat Project.jpeg" alt="Motorized Pedal Boat" width="100%" />
+				            <figcaption>Motorized Pedal Boat</figcaption>
+				        </div>
+				    </figure>
+				    <h3>Motorized Pedal Boat</h3>
+				    <div>2025</div>
+				    <p>Worked with an inter-disciplinary team of engineering students to develop propulsion system, motor, and controls for a pedal boat to function without pedals.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/wip.jpg" alt="Cube Satellite" width="100%" />
+							<figcaption>
+								Cube Satellite
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Cube Satellite</h3>
+					<div>2026</div>
+					<p>Worked with an inter-disciplinary team of engineering students to develop the neccessary embedded systems to aid a cube satellite in its space mission.</p>
+				</article>				
+			</div>
+		</section>
+
+		<section id="projects" class="work-experience container">
+			<div class="jobs">
+				<article>
+				    <figure class="video-trigger" data-video-src="https://www.youtube.com/embed/NsIm4cPuvxY?si=Cfolm1-mg1Jv5FAg">
+				        <div>
+				            <img src="./imgs/Smart Cane2.png" alt="Smart Cane" width="100%" />
+				            <figcaption>Smart Cane</figcaption>
+				        </div>
+				    </figure>
+				    <h3>Smart Cane</h3>
+				    <div>2024</div>
+				    <p>Worked with an electrical engineering student and professor to resarch and develop the hardware and software for an embedded system to aid the seeing impaired. I then presented that research at a summit.</p>
+				</article>
+				<article>
+				    <figure class="video-trigger" data-video-src="https://www.youtube.com/embed/cMAAWYdMJJU?si=5AhMI6SH6eafJM0U">
+				        <div>
+				            <img src="./imgs/webdev.jpg" alt="This Website!" width="100%" />
+				            <figcaption>This Website!</figcaption>
+				        </div>
+				    </figure>
+				    <h3>This Website!</h3>
+				    <div>2025</div>
+				    <p>Developed my own portfolio website!</p>
+				</article>
+				<!-- <article>
+					<figure>
+						<div>
+							<img src="./imgs/wip.jpg" alt="TBD" width="100%" />
+							<figcaption>
+								TBD
+							</figcaption>
+						</div>
+					</figure>
+					<h3>TBD</h3>
+					<div>2026</div>
+					<p>TBD.</p>
+				</article>				 -->
+			</div>
+		</section>
+
+	</main>
+	<div id="video-modal" class="modal">
+  <div class="modal-content">
+    <span id="close-button" class="close-button">&times;</span>
+    <div class="video-container">
+      <iframe id="video-iframe" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+</body>
+</html>
